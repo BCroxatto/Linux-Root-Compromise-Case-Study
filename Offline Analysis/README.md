@@ -57,7 +57,7 @@ The system was now fully accessible offline.
 **Key Takeaways**
 - initramfs is part of the trusted computing base
 - GRUB kernel parameters are a critical attack surface
-- Disk encryption does not protect against offline boot-chain modification\
+- Disk encryption does not protect against offline boot-chain modification
 - Removing root= is sufficient to trigger recovery logic
 
 This completed the initial compromise phase and enabled full post-mount analysis.
